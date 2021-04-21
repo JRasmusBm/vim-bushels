@@ -6,10 +6,7 @@ function! bushels#column_from_right() abort
   return last_col + 1 - cur_pos[2]
 endfunction
 
-function! bushels#change_marker(n) abort
-  if a:n > 1
-    execute a:n . 'n'
-  endif
+function! bushels#change_marker() abort
   if bushels#column_from_right() == 4
     normal "_dgn
     execute 'startinsert!'
