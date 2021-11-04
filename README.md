@@ -93,7 +93,9 @@ nmap <leader>g <Plug>BushelsForwardMarker
 ```
 
 In my vim configuration folder I define a folder of
-[snippets](https://github.com/JRasmusBm/dotfiles/tree/main/vim/snippets).
+[snippets](https://github.com/JRasmusBm/dotfiles/tree/main/vim/snippets). Each
+of these snippets start with `;`, since it is highly unusual to have text
+characters follow a `;` in code and/or prose.
 I source these by filetype from each
 [ftplugin](https://github.com/JRasmusBm/dotfiles/tree/main/vim/ftplugin). This
 ensures that I have a decoupling between filetypes and snippets, such that
