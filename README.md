@@ -70,6 +70,13 @@ mode and cursor position. Can be mapped using `<Plug>BushelsDeleteAllMarkers`.
 
 ### My configuration
 
+To start with I set a very low `timeoutlen` when working with snippets, you'll
+have to experiment with what works for you. I currently use:
+
+```vim
+set timeoutlen=300 ttimeoutlen=0
+```
+
 I use the following mappings for bushels. They ensure that I can quickly place
 and jump between markers as desired.
 
